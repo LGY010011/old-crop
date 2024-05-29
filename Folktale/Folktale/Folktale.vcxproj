@@ -134,12 +134,17 @@
     <ClInclude Include="Creature_stage1.h" />
     <ClInclude Include="Creature_stage2.h" />
     <ClInclude Include="Creature_stage3.h" />
-    <ClInclude Include="Phase_stage3.h" />
+    <ClInclude Include="Phase_stage3Ending.h" />
+    <ClInclude Include="Phase_stage3Game.h" />
+    <ClInclude Include="Phase_stage3Intro.h" />
+    <ClInclude Include="STAGE3.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Creature_stage3.cpp" />
     <ClCompile Include="Phase_stage3.cpp" />
+    <ClCompile Include="Phase_stage3Ending.cpp" />
+    <ClCompile Include="Phase_stage3Intro.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

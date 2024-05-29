@@ -1,7 +1,7 @@
-#pragma once
+ï»¿#pragma once
 #include "Creature.h"
 
-//¹Îµé·¹
+//ë¯¼ë“¤ë ˆ
 class Dandelion :public Ally
 {
 private:
@@ -9,7 +9,7 @@ private:
 public:
 };
 
-//°­¾ÆÁö¶Ë
+//ê°•ì•„ì§€ë˜¥
 class DogPoop :public Ally
 {
 private:
@@ -19,10 +19,10 @@ public:
 
 };
 
-//º´¾Æ¸®
+//ë³‘ì•„ë¦¬
 class Chick : public Monster
 {
-	// hp, attck_damage, (x,y), speed, (fx,fy),spon()  -  Å¸°ÙÁÂÇ¥(0)
+	// hp, attck_damage, (x,y), speed, (fx,fy),spon()  -  íƒ€ê²Ÿì¢Œí‘œ(0)
 private:
 	int attack_damage;
 
@@ -30,7 +30,7 @@ public:
 
 };
 
-//Âü»õ
+//ì°¸ìƒˆ
 class Sparrow : public Monster
 {
 private:

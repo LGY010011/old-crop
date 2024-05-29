@@ -33,7 +33,16 @@
     <ClInclude Include="Creature_stage3.h">
       <Filter>헤더 파일\Stage3</Filter>
     </ClInclude>
-    <ClInclude Include="Phase_stage3.h">
+    <ClInclude Include="Phase_stage3Game.h">
+      <Filter>헤더 파일\Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="Phase_stage3Intro.h">
+      <Filter>헤더 파일\Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="Phase_stage3Ending.h">
+      <Filter>헤더 파일\Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="STAGE3.h">
       <Filter>헤더 파일\Stage3</Filter>
     </ClInclude>
   </ItemGroup>
@@ -45,6 +54,12 @@
       <Filter>소스 파일\Stage3</Filter>
     </ClCompile>
     <ClCompile Include="Phase_stage3.cpp">
+      <Filter>소스 파일\Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="Phase_stage3Intro.cpp">
+      <Filter>소스 파일\Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="Phase_stage3Ending.cpp">
       <Filter>소스 파일\Stage3</Filter>
     </ClCompile>
   </ItemGroup>
